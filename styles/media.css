@@ -1,0 +1,292 @@
+@media (max-width: 1200px) {
+    .customer,
+    .aboutus {
+        width: 250px;
+    }
+  }
+
+@media (max-width: 992px) {
+    /* main */
+    .main__container {
+        flex-direction: column;
+    }
+
+    .main__left,
+    .main__right {
+        width: 100%;
+    }
+
+    .main__left {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .main__right {
+        height: auto;
+        padding: 0;
+    }
+
+    /* card */
+    .card__title {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+    }
+
+    .title__wrap {
+        display: flex;
+    }
+
+    .card__name {
+        margin: 0;
+        margin-right: 7px;
+    }
+
+    .card__article {
+        position: relative;
+        top: 6px;
+        margin: 0;
+    }
+
+    .card__wrap {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .card__cost {
+        padding: 0;
+        margin: 0;
+    }
+
+    .card__size {
+        padding: 0;
+        margin: 0;
+        margin-right: 15px;
+    }
+
+    .card__order {
+        justify-content: center;
+        padding: 0;
+    }
+
+    .card__bynow {
+        margin: 0 auto 30px;
+    }
+
+    .card__descr {
+        padding: 0;
+    }
+
+    .descr__list {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .descr__item:not(:last-child) {
+        margin: 0;
+    }
+    /* slider */
+    .slider {
+        width: 70%;
+    }
+
+    .slider__nav {
+        left: 0;
+    }
+
+    .slick-list,
+    .slick-list .slider__img {
+        width: 100%;
+    } 
+
+    /* footer */
+    .customer,
+    .aboutus {
+        width: 170px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    /* header */
+    .nav__item:last-of-type {
+        margin-right: 24px;
+    }
+
+    .hamburger__btn {
+        display: block;
+        top: 1px;
+    }
+
+    .header.active  {
+        padding-bottom: 30px;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    }
+
+    .active .hamburger__btn {
+        margin-bottom: 38px;
+    }
+
+    .active .hamburger__menu {
+        display: block;
+    }
+
+    .active .header__logo, 
+    .active .nav__item {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    /* footer */
+    .footer__container {
+        flex-direction: column;
+    }
+
+    .footer__nav {
+        margin-bottom: 38px;
+    }
+
+    .customer,
+    .aboutus,
+    .stocks {
+        width: 100%;
+    }
+
+    .stocks__form {
+        width: 330px;
+    }
+
+  }
+
+  @media (max-width: 576px) {
+    /* header */
+    .header__container {
+        padding: 8px 20px 12px;
+    }
+
+    /* main */
+    .main {
+        margin-bottom: 45px;
+    } 
+
+    .main__right {
+        padding: 0 20px;
+    }
+
+    /* slider */
+    .slider {
+        width: 100%;
+    }
+
+    .slider__nav {
+        left: -25px;
+    }
+
+    .slider__nav .slider__item {
+        width: 40px !important;
+        height: 52px !important;
+        margin-bottom: 4px;
+    }
+
+    /* card */
+    .card__title,
+    .title__wrap,
+    .card__wrap,
+    .descr__list {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .card__title {
+        margin-bottom: 40px;
+    }
+
+    .card__name {
+        margin: 0;
+        margin-bottom: 8px;
+    }
+
+    .card__article {
+        top: 0;
+        margin-bottom: 18px;
+    }
+
+    .card__cost {
+        margin-bottom: 30px;
+    }
+
+    .card__size {
+        margin: 0 0 40px;
+    }
+
+    .card__order {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .order__counter {
+        margin: 0 0 15px;
+    }
+
+    .card__bynow {
+        margin: 0 0 30px 0;
+    }
+
+    .descr__item:not(:last-of-type) {
+        margin-bottom: 12px;
+    }
+
+    /* modal */
+
+    .modal {
+        width: 300px;
+        height: 420px;
+    }
+
+    .modal__title {
+        margin-bottom: 20px;
+    }
+
+    .modal__input {
+        width: 252px;
+    }
+
+    .input-2,
+    .modal__border {
+        margin-bottom: 30px;
+    }
+
+    .modal__link {
+        margin-bottom: 25px;
+    }
+
+    /* footer */
+    .footer {
+        margin-bottom: 70px;
+        padding: 0 20px;
+    }
+
+    .footer__nav {
+        margin-bottom: 60px;
+    }
+
+    .stocks__title {
+        margin-bottom: 25px;
+    }
+  }
+
+  @media (max-width: 370px) {
+    /* main */
+    .size__select {
+        width: 100%;
+    }
+
+    /* footer */
+    .stocks__form {
+        width: 100%;
+    }
+  }
