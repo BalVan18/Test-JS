@@ -98,6 +98,12 @@
         left: 0;
     }
 
+    .slider__nav .slider__item {
+        width: 60px !important;
+        height: 78px !important;
+        margin-bottom: 4px;
+    }
+
     .slick-list,
     .slick-list .slider__img {
         width: 100%;
@@ -187,8 +193,8 @@
     }
 
     .slider__nav .slider__item {
-        width: 40px !important;
-        height: 52px !important;
+        width: 50px !important;
+        height: 65px !important;
         margin-bottom: 4px;
     }
 
@@ -288,5 +294,12 @@
     /* footer */
     .stocks__form {
         width: 100%;
+    }
+
+    /* slider */
+    .slider__nav .slider__item {
+        width: 40px !important;
+        height: 52px !important;
+        margin-bottom: 4px;
     }
   }
